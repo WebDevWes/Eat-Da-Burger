@@ -1,12 +1,31 @@
-<h1>BURGERS</h1>
+{{!-- JumboTron --}}
+<div class="jumbotron background-image text-center">
+  <div class="container">
+    <h1 class="display-4 text-white main-h1">Create Your Burger</h1>
+  </div>
+</div>
+{{!-- End JumboTron --}}
+
+
+<h2>Make a Burger!</h2>
+<form class="create-form">
+
+<div class="input-group mb-3 col-md-4">
+  <input type="text" id="burg" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="submit" id="button-addon2">Submit Burger</button>
+  </div>
+</div>
+
+</form>
 
 <h2>Burgers you made!</h2>
 
 <ul>
   {{#each burgers}}
-    {{#unless devoured}}
-      {{> cats/burger-block devoured=true}}
-    {{/unless}}
+  {{#unless devoured}}
+  {{> burgers/burger-block devoured=true}}
+  {{/unless}}
   {{/each}}
 </ul>
 
@@ -14,19 +33,8 @@
 
 <ul>
   {{#each burgers}}
-    {{#if devoured}}
-      {{> cats/burger-block devoured=false}}
-    {{/if}}
+  {{#if devoured}}
+  {{> burgers/burger-block devoured=false}}
+  {{/if}}
   {{/each}}
 </ul>
-
-<h2>Make a Burger!</h2>
-<form class="create-form">
-
-  <div class="form-group">
-    <label for="burg">Burger Name:</label>
-    <input type="text" id="burg" name="name">
-  </div>
-
-  <button type="submit">Add Burger</button>
-</form>
