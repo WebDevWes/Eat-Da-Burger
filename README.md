@@ -9,7 +9,9 @@ Github Email Address: wesaboo@gmail.com
 
 Description: This app is made to practice utilizing ExpressJS, HandlebarsJS, and mySQL Database. 
 
-![Screenshot](/screenshots/placeholder.gif) 
+![Screenshot](/screenshots/screenshot.png) 
+---
+![Screenshot](/screenshots/screenshot2.png) 
 
 Installation Instructions: Requires NodeJS, must run npm install to install required node_modules. To start run "node server". Before starting you must create the database and table with the provided schema.sql and seeds.sql
 
