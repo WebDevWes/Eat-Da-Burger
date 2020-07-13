@@ -18,9 +18,13 @@ li {
   margin-bottom: 5px;
 }
 
-.background-image{
-  background-image: url("public/assets/images/image554048.jpg");
+.background-image {
+  background-image: url("/assets/images/image554048.jpg");
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: cover; 
+}
+
+.form-container {
+  margin-left: 8%;
 }
