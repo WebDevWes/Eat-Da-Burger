@@ -21,6 +21,3 @@ License: ISC
 
 Contributor: Wesley Tran
 
-Test Code: 
-
-![Avatar](https://avatars0.githubusercontent.com/u/60164964?v=4)
