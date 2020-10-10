@@ -5,9 +5,9 @@
 
 https://desolate-refuge-10655.herokuapp.com/
 
-### Github Username: Wesaboo
+### Github Username: WebDevWes
 
-Github Email Address: wesaboo@gmail.com
+Github Email Address: WebDevWes89@gmail.com
 
 ## Project/Repo Title: Eat-Da-Burger
 
