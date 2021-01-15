@@ -1,4 +1,3 @@
-
 ![License Badge](https://img.shields.io/badge/License-ISC-green.svg)
 
 ### Deployed app on Heroku
@@ -11,13 +10,15 @@ Github Email Address: WebDevWes89@gmail.com
 
 ## Project/Repo Title: Eat-Da-Burger
 
-Description: This app is made to practice utilizing ExpressJS, HandlebarsJS, and mySQL Database. 
+Description: This app is made to practice utilizing ExpressJS, HandlebarsJS, and mySQL Database.
 
-![Screenshot](/Screenshots/screenshot.png) 
----
-![Screenshot](/Screenshots/screenshot2.png) 
+## ![Screenshot](/Screenshots/screenshot.png)
+
+![Screenshot](/Screenshots/screenshot2.png)
 
 How to use: Add a burger by typing in a name for the burger. When Eaten is clicked, the column of devoured for the burger selected will be designated as true, and will be displayed in the second table. Each table determines whether something is "Eaten" through the use of connection.query. Clicking throw away will delete the selected burger from the table.
+
+Installation Instruction: Use "node server" to start the Node server in terminal, navigate to localhost:8080 to use.
 
 License: ISC
 
@@ -28,6 +29,7 @@ Contributor: Wesley Tran
 - HTML
 - CSS
 - Javascript
+- Handlebar JS
 - NodeJS
   - Express
 - MySQL
